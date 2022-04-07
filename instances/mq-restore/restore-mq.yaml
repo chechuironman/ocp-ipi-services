@@ -1,0 +1,29 @@
+apiVersion: velero.io/v1
+kind: Restore
+metadata:
+  name: restore-mq-test-1-gitops
+  namespace: openshift-adp
+spec:
+  backupName: backup-mq-11
+  excludedResources:
+    - imagestreams
+    - images
+    - secrets
+    - clients
+    - nodes
+    - events
+    - events.events.k8s.io
+    - backups.velero.io
+    - restores.velero.io
+    - resticrepositories.velero.io
+    - queuemanagers
+    - serviceaccounts
+    - pods
+  includeClusterResources: true
+  includedNamespaces:
+    - cloudpak
+  includedResources:
+    - persistentvolumes
+    - persistentvolumeclaims
+  restorePVs: true
+
