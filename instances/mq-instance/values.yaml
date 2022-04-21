@@ -1,13 +1,12 @@
-ibm-fusion-instance:
-  mq-instance:
-    mq_instance:
-      name:
-      namespace:
-      storage_class: 
-      configmap: 
-      secret:
-      version:
-      queuename:
+mq-instance:
+  mq_instance:
+    name:
+    namespace:
+    storage_class: 
+    configmap: 
+    secret:
+    version:
+    queuename:
 
 
     
