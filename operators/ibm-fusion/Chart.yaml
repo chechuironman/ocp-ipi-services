@@ -2,9 +2,9 @@ apiVersion: v2
 name: ibm-fusion
 description: A Helm chart for Kubernetes
 type: application
-version: 0.1.2
-appVersion: "0.1.2"
+version: 0.1.3
+appVersion: "0.1.3"
 dependencies:
   - name: ibm-fusion
-    version: 0.1.2
+    version: 0.1.3
     repository: https://chechuironman.github.io/helm-repo/
