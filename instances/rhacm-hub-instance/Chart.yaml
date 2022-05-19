@@ -1,0 +1,10 @@
+apiVersion: v2
+name: rhacm-hub-instance
+description: A Helm chart for deploying Red Hat Advanced Cluster Management
+type: application
+version: 0.1.0
+appVersion: "1.0"
+dependencies:
+  - name: rhacm-hub-instance
+    version: 0.1.0
+    repository: https://chechuironman.github.io/helm-repo/
