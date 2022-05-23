@@ -7,4 +7,5 @@ ibm-fusion-spectrum-remote:
     node_ip_2: 
     storageclass_fusion: 
     filesystem:
+    name_override:
     
