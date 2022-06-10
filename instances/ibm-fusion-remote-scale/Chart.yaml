@@ -2,9 +2,9 @@ apiVersion: v2
 name: ibm-fusion-spectrum-remote
 description: A Helm chart for Kubernetes
 type: application
-version: 0.10.0
+version: 0.11.0
 appVersion: "0.1.0"
 dependencies:
   - name: ibm-fusion-spectrum-remote
-    version: 0.10.0
+    version: 0.11.0
     repository: https://chechuironman.github.io/helm-repo/
