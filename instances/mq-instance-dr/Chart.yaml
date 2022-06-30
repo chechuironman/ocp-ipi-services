@@ -3,7 +3,7 @@ name: mq-instance-dr
 description: Deployment of MQ instance
 type: application
 version: 0.1.8
-appVersion: "0.1.0"
+appVersion: "0.1.8"
 dependencies:
   - name: mq-instance-dr
     version: 0.1.8
