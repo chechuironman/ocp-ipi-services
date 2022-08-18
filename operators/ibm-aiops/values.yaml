@@ -1,6 +1,6 @@
 global: {}
 
-ibm-aiops:
+ibm-cp4waiops-operator:
   subscriptions:
     subscription:
       channel: v3.4
