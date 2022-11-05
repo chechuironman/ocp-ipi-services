@@ -12,6 +12,7 @@ ibm-cp4waiops-operator:
       source: ibm-operator-catalog
       sourceNamespace: openshift-marketplace
   infra:
+    namespace:
     subscription:
       channel: v3.5
       config:
